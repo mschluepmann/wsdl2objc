@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		021CBDED1892BF6E008EDA29 /* USGlobals_H.template in CopyFiles */ = {isa = PBXBuildFile; fileRef = 62FF1EF80E883B8A006D6377 /* USGlobals_H.template */; };
+		021CBDEE1892BF6E008EDA29 /* USGlobals_M.template in CopyFiles */ = {isa = PBXBuildFile; fileRef = 62FF1F010E883C22006D6377 /* USGlobals_M.template */; };
+		021CBDEF1892BF6E008EDA29 /* USAdditions_H.template in CopyFiles */ = {isa = PBXBuildFile; fileRef = 62BF41B20E72004900FA8190 /* USAdditions_H.template */; };
+		021CBDF01892BF6E008EDA29 /* USAdditions_M.template in CopyFiles */ = {isa = PBXBuildFile; fileRef = 62BF41B30E72004900FA8190 /* USAdditions_M.template */; };
+		021CBDF11892BF77008EDA29 /* Schema_H.template in CopyFiles */ = {isa = PBXBuildFile; fileRef = 62BFB2240E648CE100E19E18 /* Schema_H.template */; };
+		021CBDF21892BF77008EDA29 /* Schema_M.template in CopyFiles */ = {isa = PBXBuildFile; fileRef = 62BFB2250E648CE900E19E18 /* Schema_M.template */; };
+		021CBDF31892BF77008EDA29 /* ComplexType_H.template in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6235F00A0E63954100DABBD6 /* ComplexType_H.template */; };
+		021CBDF41892BF77008EDA29 /* ComplexType_M.template in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6235F00D0E63958E00DABBD6 /* ComplexType_M.template */; };
+		021CBDF51892BF77008EDA29 /* SimpleType_H.template in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6235F0090E63953500DABBD6 /* SimpleType_H.template */; };
+		021CBDF61892BF77008EDA29 /* SimpleType_M.template in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6235F00C0E63958100DABBD6 /* SimpleType_M.template */; };
+		021CBDF71892BF77008EDA29 /* Binding_H.template in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6240653F0E70A8C5006BEB94 /* Binding_H.template */; };
+		021CBDF81892BF77008EDA29 /* Binding_M.template in CopyFiles */ = {isa = PBXBuildFile; fileRef = 624065410E70A8D0006BEB94 /* Binding_M.template */; };
+		021CBDF91892BF77008EDA29 /* Service_H.template in CopyFiles */ = {isa = PBXBuildFile; fileRef = 624065390E70A6A0006BEB94 /* Service_H.template */; };
+		021CBDFA1892BF77008EDA29 /* Service_M.template in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6240653A0E70A6A8006BEB94 /* Service_M.template */; };
+		021CBDFB1892BF7F008EDA29 /* NSDate+ISO8601Parsing_H.template in CopyFiles */ = {isa = PBXBuildFile; fileRef = 62BF42030E72073F00FA8190 /* NSDate+ISO8601Parsing_H.template */; };
+		021CBDFC1892BF7F008EDA29 /* NSDate+ISO8601Parsing_M.template in CopyFiles */ = {isa = PBXBuildFile; fileRef = 62BF42040E72073F00FA8190 /* NSDate+ISO8601Parsing_M.template */; };
+		021CBDFD1892BF7F008EDA29 /* NSDate+ISO8601Unparsing_H.template in CopyFiles */ = {isa = PBXBuildFile; fileRef = 62BF42050E72073F00FA8190 /* NSDate+ISO8601Unparsing_H.template */; };
+		021CBDFE1892BF7F008EDA29 /* NSDate+ISO8601Unparsing_M.template in CopyFiles */ = {isa = PBXBuildFile; fileRef = 62BF42060E72073F00FA8190 /* NSDate+ISO8601Unparsing_M.template */; };
 		621D446C0E6E0BD200CEF901 /* ComplexType_H.template in Resources */ = {isa = PBXBuildFile; fileRef = 6235F00A0E63954100DABBD6 /* ComplexType_H.template */; };
 		621D446D0E6E0BD200CEF901 /* ComplexType_M.template in Resources */ = {isa = PBXBuildFile; fileRef = 6235F00D0E63958E00DABBD6 /* ComplexType_M.template */; };
 		621D446E0E6E0BD200CEF901 /* SimpleType_H.template in Resources */ = {isa = PBXBuildFile; fileRef = 6235F0090E63953500DABBD6 /* SimpleType_H.template */; };
@@ -91,6 +109,36 @@
 		F4FAC31C1227F0F9006B61BC /* NSBundle+USAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F4FAC31B1227F0F9006B61BC /* NSBundle+USAdditions.m */; };
 		F4FAC31D1227F0F9006B61BC /* NSBundle+USAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F4FAC31B1227F0F9006B61BC /* NSBundle+USAdditions.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		020D2EF11892BEFA00F5934F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "~/Library/Application Support/wsdl2objc";
+			dstSubfolderSpec = 0;
+			files = (
+				021CBDFB1892BF7F008EDA29 /* NSDate+ISO8601Parsing_H.template in CopyFiles */,
+				021CBDFC1892BF7F008EDA29 /* NSDate+ISO8601Parsing_M.template in CopyFiles */,
+				021CBDFD1892BF7F008EDA29 /* NSDate+ISO8601Unparsing_H.template in CopyFiles */,
+				021CBDFE1892BF7F008EDA29 /* NSDate+ISO8601Unparsing_M.template in CopyFiles */,
+				021CBDF11892BF77008EDA29 /* Schema_H.template in CopyFiles */,
+				021CBDF21892BF77008EDA29 /* Schema_M.template in CopyFiles */,
+				021CBDF31892BF77008EDA29 /* ComplexType_H.template in CopyFiles */,
+				021CBDF41892BF77008EDA29 /* ComplexType_M.template in CopyFiles */,
+				021CBDF51892BF77008EDA29 /* SimpleType_H.template in CopyFiles */,
+				021CBDF61892BF77008EDA29 /* SimpleType_M.template in CopyFiles */,
+				021CBDF71892BF77008EDA29 /* Binding_H.template in CopyFiles */,
+				021CBDF81892BF77008EDA29 /* Binding_M.template in CopyFiles */,
+				021CBDF91892BF77008EDA29 /* Service_H.template in CopyFiles */,
+				021CBDFA1892BF77008EDA29 /* Service_M.template in CopyFiles */,
+				021CBDED1892BF6E008EDA29 /* USGlobals_H.template in CopyFiles */,
+				021CBDEE1892BF6E008EDA29 /* USGlobals_M.template in CopyFiles */,
+				021CBDEF1892BF6E008EDA29 /* USAdditions_H.template in CopyFiles */,
+				021CBDF01892BF6E008EDA29 /* USAdditions_M.template in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		08FB7796FE84155DC02AAC07 /* WSDLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSDLParser.m; sourceTree = "<group>"; };
@@ -456,6 +504,7 @@
 			buildPhases = (
 				F4FAC2901227E364006B61BC /* Sources */,
 				F4FAC2911227E364006B61BC /* Frameworks */,
+				020D2EF11892BEFA00F5934F /* CopyFiles */,
 			);
 			buildRules = (
 			);
